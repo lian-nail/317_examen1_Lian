@@ -1,0 +1,13 @@
+La taxonomía de Flynn es un modelo de clasificación para arquitecturas de computación paralela que se basa en la forma en que se distribuyen las instrucciones y los datos entre los procesadores. Existen 4 categorias:
+-. SISD (Single Instruction, Single Data)
+2. SIMD (Single Instruction, Multiple Data)
+3. MISD (Multiple Instruction, Single Data)
+4. MIMD (Multiple Instruction, Multiple Data)
+
+Ahora su clasificación:
+OPENMP se presenta como una biblioteca de programación paralela que aprovecha el modelo de computación MIMD. Esto significa que brinda a los programadores la capacidad de especificar qué secciones de un código se ejecutarán simultáneamente en diferentes procesadores o núcleos de un solo procesador.
+
+MPI, o Message Passing Interface, es una biblioteca de comunicación diseñada específicamente para la computación paralela distribuida. Esta tecnología se basa en el modelo de computación MIMD, permitiendo a los programadores distribuir datos y tareas entre diferentes computadoras que conforman una red.
+
+Multiprocessing permite que un sistema ejecute varios procesos de forma simultánea, aprovechando al máximo los recursos disponibles, como procesadores o núcleos.
+
